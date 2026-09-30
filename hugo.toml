@@ -1,0 +1,32 @@
+baseURL = 'https://jcdaohang.cyou/'
+locale = 'zh-CN'
+title = '机场导航网 - 2026最新优质稳定梯子评测与魔法上网新手指南'
+hasConfiguredSummaryDivider = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  description = "面向新手小白的专业网络翻墙与科学上网导航站。聚焦优质稳定机场推荐、性价比梯子评测、多平台客户端（Clash/Sing-box/v2rayN/Shadowrocket等）保姆级配置教程，以及流媒体解锁与低延迟游戏加速专题。"
+  keywords = "机场导航,机场推荐,梯子推荐,魔法上网,魔法机场,翻墙机场,科学上网梯子,稳定机场推荐,便宜机场,4K流媒体机场,低延迟游戏梯子,IEPL专线机场"
+  tgChannel = "https://t.me/+KJWZtRAFDBMwOTE1"
+  author = "机场导航网编辑部"
+  copyright = "机场导航网"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[sitemap]
+  changefreq = 'daily'
+  priority = 0.8
+  filename = 'sitemap.xml'

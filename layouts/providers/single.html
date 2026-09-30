@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+<article class="container">
+  <div class="article-prose">
+    <h1>{{ .Title }}</h1>
+    
+    <div style="font-size: 0.88rem; color: #64748b; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #e2e8f0; display:flex; gap: 20px; flex-wrap:wrap;">
+      <span>📅 最后核验日期：{{ if .Params.lastChecked }}{{ .Params.lastChecked }}{{ else }}2026-09-29{{ end }}</span>
+      <span>🏷️ 资料类别：第三方评测与编辑部核验数据</span>
+      <span>🔒 信息声明：价格与套餐优惠请以当前结算页为准</span>
+    </div>
+
+    <!-- Official Registration CTA Card -->
+    <div style="background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); color:#fff; padding:24px; border-radius:12px; margin-bottom:32px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+      <div>
+        <h2 style="font-size:1.5rem; color:#fff; border:none; margin:0 0 8px 0; padding:0;">🚀 {{ .Params.name }} 官方直达通道</h2>
+        <p style="font-size:0.95rem; opacity:0.9; margin:0;">
+          起步价格：<strong>{{ .Params.priceFrom }}</strong> | 包含流量：<strong>{{ .Params.trafficFrom }}</strong>
+          {{ if .Params.coupon }} | 专享优惠码：<code style="background:rgba(255,255,255,0.2); color:#fff; padding:2px 8px; border-radius:4px;">{{ .Params.coupon }}</code>{{ end }}
+        </p>
+      </div>
+      <a href="{{ .Params.inviteURL }}" target="_blank" rel="sponsored nofollow noopener" class="btn-primary" style="background:#f59e0b; color:#0f172a !important; padding:12px 28px; font-weight:800; text-decoration:none !important;">
+        {{ if .Params.coupon }}使用优惠码前往官网注册 &rarr;{{ else }}查看当前套餐与价格 &rarr;{{ end }}
+      </a>
+    </div>
+
+    {{ .Content }}
+
+    <!-- Callout Box for Top 4 Airports -->
+    <div class="featured-provider-box">
+      <h3>🚀 2026四大主推机场横向对比参考</h3>
+      <p style="font-size:0.92rem; color:#334155; margin-bottom:14px;">如果您还在犹豫是否选择 {{ .Params.name }}，可以同步参考编辑部评测的四大主推机场：</p>
+      
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:12px;">
+        <div style="background:#fff; padding:12px; border-radius:8px; border:1px solid #93c5fd;">
+          <div style="font-weight:700; color:#ef4444;">1. 灵动云</div>
+          <div style="font-size:0.8rem; color:#64748b;">IEPL全专线 · 低延迟游戏/AI</div>
+          <a href="https://varnexa.lingdongaff.com/#/?code=JoIy7bO1" target="_blank" rel="sponsored nofollow noopener" style="font-weight:700; font-size:0.82rem;">前往官网 &rarr;</a>
+        </div>
+
+        <div style="background:#fff; padding:12px; border-radius:8px; border:1px solid #93c5fd;">
+          <div style="font-weight:700; color:#f59e0b;">2. 暮光网络</div>
+          <div style="font-size:0.8rem; color:#64748b;">晚高峰4K/8K影音秒开</div>
+          <a href="https://varnexa.twilightaff.com/#/?code=KvGly3jY" target="_blank" rel="sponsored nofollow noopener" style="font-weight:700; font-size:0.82rem;">前往官网 &rarr;</a>
+        </div>
+
+        <div style="background:#fff; padding:12px; border-radius:8px; border:1px solid #93c5fd;">
+          <div style="font-weight:700; color:#3b82f6;">3. 飞猫云</div>
+          <div style="font-size:0.8rem; color:#64748b;">平民年付折合7元/月起</div>
+          <a href="https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH" target="_blank" rel="sponsored nofollow noopener" style="font-weight:700; font-size:0.82rem;">前往官网 &rarr;</a>
+        </div>
+
+        <div style="background:#fff; padding:12px; border-radius:8px; border:1px solid #93c5fd;">
+          <div style="font-weight:700; color:#10b981;">4. 微风网络</div>
+          <div style="font-size:0.8rem; color:#64748b;">老牌稳定运营 · 学术/网页</div>
+          <a href="https://edp01.breezenetaff.com/#/?code=He4n3zxg" target="_blank" rel="sponsored nofollow noopener" style="font-weight:700; font-size:0.82rem;">前往官网 &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</article>
+
+{{ end }}

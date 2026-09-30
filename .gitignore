@@ -1,0 +1,7 @@
+# Log files
+*.log
+desc_report.txt
+
+# OS junk
+.DS_Store
+Thumbs.db

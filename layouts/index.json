@@ -1,0 +1,27 @@
+[
+  {{- $pages := .Site.RegularPages -}}
+  {{- range $index, $page := $pages -}}
+    {{- if $index }},{{ end -}}
+    {{- $kw := "" -}}
+    {{- if $page.Params.keywords -}}
+      {{- if reflect.IsSlice $page.Params.keywords -}}
+        {{- $kw = delimit $page.Params.keywords "," -}}
+      {{- else -}}
+        {{- $kw = $page.Params.keywords -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $tags := "" -}}
+    {{- if $page.Params.tags -}}
+      {{- $tags = delimit $page.Params.tags "," -}}
+    {{- end -}}
+    {
+      "title": {{ $page.Title | jsonify }},
+      "permalink": {{ $page.RelPermalink | jsonify }},
+      "section": {{ ($page.Section | default "其他") | jsonify }},
+      "description": {{ ($page.Description | default $page.Summary | default "") | jsonify }},
+      "keywords": {{ $kw | jsonify }},
+      "tags": {{ $tags | jsonify }},
+      "content": {{ $page.Plain | jsonify }}
+    }
+  {{- end -}}
+]

@@ -1,0 +1,100 @@
+{{ define "main" }}
+
+<article class="container" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-prose">
+    <h1 itemprop="headline">{{ .Title }}</h1>
+    
+    <div style="font-size: 0.88rem; color: #64748b; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #e2e8f0; display:flex; gap: 20px; flex-wrap:wrap;">
+      <span>✍️ 作者：<span itemprop="author">{{ if .Params.author }}{{ .Params.author }}{{ else }}机场导航网编辑部{{ end }}</span></span>
+      <span>📅 发布日期：<time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></span>
+      <span>⏱️ 阅读时间：约 {{ .ReadingTime }} 分钟</span>
+      <span>📝 文章字数：约 {{ .FuzzyWordCount }} 字</span>
+    </div>
+
+    {{ if .Description }}
+    <div style="background: #f8fafc; border-left: 4px solid #1d4ed8; padding: 14px 18px; margin-bottom: 28px; border-radius: 4px; font-size: 0.95rem; color: #334155;">
+      <strong>【内容摘要与导读】：</strong>{{ .Description }}
+    </div>
+    {{ end }}
+
+    {{ if .Params.toc }}
+    <div style="background: #f1f5f9; padding: 16px 20px; border-radius: 8px; margin-bottom: 28px;">
+      <div style="font-weight: 700; margin-bottom: 8px;">📌 本文目录结构：</div>
+      {{ .TableOfContents }}
+    </div>
+    {{ end }}
+
+    <!-- Article Content -->
+    <div itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    <!-- Mandatory Top 4 Providers Callout Block inside Every Article -->
+    <div class="featured-provider-box">
+      <h3>🚀 2026年编辑部首推四大优质机场推荐（官网注册通道）</h3>
+      <p style="font-size: 0.92rem; color: #334155; margin-bottom: 16px;">
+        根据线路稳定性、晚高峰表现、流媒体/AI解锁能力及性价比综合评估，本文重点推荐以下4大高速稳定机场：
+      </p>
+      
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px;">
+        <div style="background:#fff; padding: 14px; border-radius: 8px; border: 1px solid #bfdbfe;">
+          <div style="font-weight:800; color:#ef4444;">Top 1: 灵动云</div>
+          <div style="font-size:0.82rem; color:#475569; margin:4px 0 8px 0;">BGP/IEPL全专线 · 游戏/AI首选</div>
+          <a href="https://varnexa.lingdongaff.com/#/?code=JoIy7bO1" target="_blank" rel="sponsored nofollow noopener" class="btn-card-aff" style="display:block; text-align:center;">使用优惠码注册 &rarr;</a>
+        </div>
+
+        <div style="background:#fff; padding: 14px; border-radius: 8px; border: 1px solid #bfdbfe;">
+          <div style="font-weight:800; color:#f59e0b;">Top 2: 暮光网络</div>
+          <div style="font-size:0.82rem; color:#475569; margin:4px 0 8px 0;">晚高峰8K影音 · 4K/8K秒开</div>
+          <a href="https://varnexa.twilightaff.com/#/?code=KvGly3jY" target="_blank" rel="sponsored nofollow noopener" class="btn-card-aff" style="display:block; text-align:center;">使用优惠码注册 &rarr;</a>
+        </div>
+
+        <div style="background:#fff; padding: 14px; border-radius: 8px; border: 1px solid #bfdbfe;">
+          <div style="font-weight:800; color:#3b82f6;">Top 3: 飞猫云</div>
+          <div style="font-size:0.82rem; color:#475569; margin:4px 0 8px 0;">平民年付折合7元/月 · 新手备用</div>
+          <a href="https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH" target="_blank" rel="sponsored nofollow noopener" class="btn-card-aff" style="display:block; text-align:center;">使用优惠码注册 &rarr;</a>
+        </div>
+
+        <div style="background:#fff; padding: 14px; border-radius: 8px; border: 1px solid #bfdbfe;">
+          <div style="font-weight:800; color:#10b981;">Top 4: 微风网络</div>
+          <div style="font-size:0.82rem; color:#475569; margin:4px 0 8px 0;">老牌稳定运营 · 科研/网页速连</div>
+          <a href="https://edp01.breezenetaff.com/#/?code=He4n3zxg" target="_blank" rel="sponsored nofollow noopener" class="btn-card-aff" style="display:block; text-align:center;">前往官网注册 &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related Articles -->
+    <div style="margin-top: 40px; padding-top: 24px; border-top: 2px solid #f1f5f9;">
+      <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 16px;">📚 相关推荐文章与知识指南</h3>
+      <ul style="line-height: 2;">
+        {{ range first 5 (where .Site.RegularPages "RelPermalink" "!=" .RelPermalink) }}
+        <li><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a> - <span style="font-size:0.85rem; color:#64748b;">{{ .Date.Format "2006-01-02" }}</span></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</article>
+
+<!-- JSON-LD Article Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}",
+  "author": {
+    "@type": "Organization",
+    "name": "机场导航网编辑部"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "机场导航网",
+    "url": "https://jcdaohang.cyou/"
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+  "mainEntityOfPage": "{{ .Permalink }}"
+}
+</script>
+
+{{ end }}

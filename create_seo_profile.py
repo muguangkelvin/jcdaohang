@@ -1,0 +1,131 @@
+import os
+import json
+
+os.makedirs("data", exist_ok=True)
+os.makedirs("docs", exist_ok=True)
+
+seo_profile = {
+    "profileVersion": "2026.1.0",
+    "siteTopic": "面向新手小白的专业网络翻墙与科学上网机场导航站",
+    "domain": "https://jcdaohang.cyou",
+    "title": "机场导航网 (jcdaohang.cyou) - 2026最新优质稳定梯子评测与魔法上网新手指南",
+    "tgChannel": "https://t.me/+KJWZtRAFDBMwOTE1",
+    "primaryKeywords": [
+        "机场导航",
+        "机场推荐",
+        "梯子推荐",
+        "魔法上网",
+        "魔法机场",
+        "翻墙机场"
+    ],
+    "secondaryKeywords": [
+        "科学上网梯子",
+        "稳定机场推荐",
+        "便宜机场",
+        "4K流媒体机场",
+        "低延迟游戏梯子",
+        "SS/SSR机场",
+        "V2Ray机场",
+        "Trojan机场",
+        "Hysteria2节点",
+        "IEPL专线机场"
+    ],
+    "longTailKeywords": [
+        "2026好用的机场推荐",
+        "手机电脑小白科学上网教程",
+        "Shadowrocket小火箭节点订阅导入",
+        "Clash Verge小白上手指南",
+        "性价比高不卡顿的梯子测速推荐",
+        "ChatGPT与Netflix流媒体解锁专用机场导航"
+    ],
+    "heroKeywords": [
+        "优质机场导航",
+        "2026稳定高速梯子测评与推荐",
+        "零门槛科学上网指南",
+        "自营高速专线推荐",
+        "性价比梯子推荐",
+        "全平台客户端配置",
+        "流媒体与AI工具解锁",
+        "游戏低延迟专线"
+    ],
+    "footerKeywords": [
+        "jcdaohang.cyou 机场导航官方站点",
+        "防失联备用网址与客户端下载导航",
+        "免责声明与服务协议",
+        "2026优质稳定机场推荐榜",
+        "科学上网保姆级入门教程",
+        "Clash/v2rayN/Shadowrocket订阅配置"
+    ],
+    "navigationItems": [
+        {
+            "label": "优质机场推荐",
+            "url": "/picks/",
+            "type": "content",
+            "isContentSection": True,
+            "isCommercial": True,
+            "primaryKeyword": "机场推荐",
+            "supportingKeywords": ["稳定梯子", "高速机场", "性价比机场推荐", "专线机场推荐"],
+            "articleCount": 12
+        },
+        {
+            "label": "小白入门教程",
+            "url": "/tutorials/",
+            "type": "content",
+            "isContentSection": True,
+            "isCommercial": False,
+            "primaryKeyword": "科学上网教程",
+            "supportingKeywords": ["魔法上网设置", "节点导入", "新手翻墙指南", "网络隐私保护"],
+            "articleCount": 15
+        },
+        {
+            "label": "客户端下载配置",
+            "url": "/clients/",
+            "type": "content",
+            "isContentSection": True,
+            "isCommercial": False,
+            "primaryKeyword": "Clash教程",
+            "supportingKeywords": ["v2rayN下载", "小火箭配置", "Sing-box指南", "Shadowrocket订阅"],
+            "articleCount": 10
+        },
+        {
+            "label": "专线与游戏加速",
+            "url": "/iplc-gaming/",
+            "type": "content",
+            "isContentSection": True,
+            "isCommercial": True,
+            "primaryKeyword": "IEPL专线机场",
+            "supportingKeywords": ["游戏加速梯子", "低延迟节点", "外服游戏加速", "跨境办公网络"],
+            "articleCount": 8
+        },
+        {
+            "label": "流媒体与AI工具",
+            "url": "/streaming/",
+            "type": "content",
+            "isContentSection": True,
+            "isCommercial": True,
+            "primaryKeyword": "Netflix奈飞解锁",
+            "supportingKeywords": ["ChatGPT翻墙梯子", "YouTube 4K节点", "Disney+解锁", "Claude节点"],
+            "articleCount": 8
+        },
+        {
+            "label": "常见问题",
+            "url": "/faq/",
+            "type": "faq",
+            "isContentSection": True,
+            "isCommercial": False,
+            "primaryKeyword": "机场常见问题",
+            "supportingKeywords": ["机场订阅报错解决", "节点超时排查", "梯子连接失败", "专线与直连区别"],
+            "articleCount": 100
+        }
+    ],
+    "protectedBrandTerms": ["jcdaohang.cyou", "机场导航网"],
+    "sourceUpdatedAt": "2026-09-29"
+}
+
+with open("data/site_seo_profile.json", "w", encoding="utf-8") as f:
+    json.dump(seo_profile, f, ensure_ascii=False, indent=2)
+
+with open("docs/site-seo-profile.json", "w", encoding="utf-8") as f:
+    json.dump(seo_profile, f, ensure_ascii=False, indent=2)
+
+print("Saved site_seo_profile.json successfully!")

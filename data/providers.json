@@ -1,0 +1,1268 @@
+[
+  {
+    "rank": 1,
+    "isPrimary": true,
+    "name": "灵动云",
+    "slug": "lingdong-cloud",
+    "inviteURL": "https://varnexa.lingdongaff.com/#/?code=JoIy7bO1",
+    "ctaText": "使用优惠码查看当前套餐",
+    "coupon": "lingdong88",
+    "couponNote": "新用户8折优惠，适用全系套餐",
+    "priceFrom": "15元/月",
+    "trafficFrom": "150GB/月",
+    "suitableFor": "顶级BGP/IEPL专线、全极速体验、低延迟游戏加速、ChatGPT/Netflix 4K强力解锁",
+    "summary": "灵动云是2026年首推的高速稳定IEPL专线机场，拥有全球多个原生节点。晚高峰无卡顿，完美解锁ChatGPT、Claude、Netflix及Disney+等AI与流媒体服务。",
+    "packages": [
+      {
+        "name": "基础版",
+        "price": "15元/月",
+        "traffic": "150GB/月",
+        "suitable": "轻度上网、Google查资料与学术科研"
+      },
+      {
+        "name": "标准版",
+        "price": "30元/月",
+        "traffic": "350GB/月",
+        "suitable": "日常4K影音追剧与ChatGPT/Claude开发"
+      },
+      {
+        "name": "旗舰版",
+        "price": "60元/月",
+        "traffic": "800GB/月",
+        "suitable": "多设备并发、大流量下载与家庭共享"
+      },
+      {
+        "name": "独享专线",
+        "price": "150元/月",
+        "traffic": "2000GB/月",
+        "suitable": "跨境电商独立站与团队远程办公"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan",
+      "Hysteria2",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "韩国",
+      "英国",
+      "德国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 2,
+    "isPrimary": true,
+    "name": "暮光网络",
+    "slug": "twilight-cloud",
+    "inviteURL": "https://varnexa.twilightaff.com/#/?code=KvGly3jY",
+    "ctaText": "使用优惠码查看当前套餐",
+    "coupon": "mm88",
+    "couponNote": "8折特惠码，结算页直接抵扣",
+    "priceFrom": "20元/月",
+    "trafficFrom": "120GB/月",
+    "suitableFor": "晚高峰4K/8K影音流媒体、多设备接入、跨境远程办公与大流量下载",
+    "summary": "暮光网络侧重晚高峰高清影音表现与高并发稳定传输。全线路采用深港与沪日IEPL专线，节点抗封锁能力强，延迟低至30ms。",
+    "packages": [
+      {
+        "name": "基础版",
+        "price": "20元/月",
+        "traffic": "120GB/月",
+        "suitable": "高清追剧与日常外贸联络"
+      },
+      {
+        "name": "标准版",
+        "price": "40元/月",
+        "traffic": "300GB/月",
+        "suitable": "4K/8K影音硬解与多设备同时在线"
+      },
+      {
+        "name": "旗舰版",
+        "price": "100元/月",
+        "traffic": "700GB/月",
+        "suitable": "海量大流量与高速专线下载"
+      },
+      {
+        "name": "年付轻量",
+        "price": "109元/年",
+        "traffic": "70GB/月",
+        "suitable": "平民低门槛长约备用推荐"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "台湾"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 3,
+    "isPrimary": true,
+    "name": "飞猫云",
+    "slug": "flycat-cloud",
+    "inviteURL": "https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH",
+    "ctaText": "使用优惠码查看当前套餐",
+    "coupon": "flycat888",
+    "couponNote": "新用户购买季付及以上立享8折优惠",
+    "priceFrom": "84元/年",
+    "displayEquivalent": "折合7元/月",
+    "trafficFrom": "50GB/月",
+    "suitableFor": "小白备用梯子、超高性价比年付、轻度浏览、手机电脑全平台快速配置",
+    "summary": "飞猫云主打平民价格与高稳定度。低至折合7元/月的极致性价比，提供自研一键客户端与标准Clash/Sing-box订阅，新手小白首选。",
+    "packages": [
+      {
+        "name": "学生版/年付",
+        "price": "84元/年 (折合7元/月)",
+        "traffic": "50GB/月",
+        "suitable": "极致平民性价比、学生党小白首选"
+      },
+      {
+        "name": "星耀版/月付",
+        "price": "25元/月",
+        "traffic": "150GB/月",
+        "suitable": "无长约套牢、随用随充日常主用"
+      },
+      {
+        "name": "尊享版/月付",
+        "price": "45元/月",
+        "traffic": "350GB/月",
+        "suitable": "全节点解锁与4K流媒体流畅播放"
+      },
+      {
+        "name": "不限时按量包",
+        "price": "120元/一次性",
+        "traffic": "500GB永不过期",
+        "suitable": "备用梯子防失联首选方案"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 4,
+    "isPrimary": true,
+    "name": "微风网络",
+    "slug": "breezenet",
+    "inviteURL": "https://edp01.breezenetaff.com/#/?code=He4n3zxg",
+    "ctaText": "查看当前套餐与价格",
+    "coupon": "暂无优惠码",
+    "priceFrom": "12元/月",
+    "trafficFrom": "100GB/月",
+    "suitableFor": "轻度科研学术、日常社交网页浏览、Telegram与Twitter高速连线",
+    "summary": "微风网络（BreezeNet）老牌稳定运营，拥有多条直连与中继高速线路，价格平实，适合作为日常主用或高可靠性备用梯子。",
+    "packages": [
+      {
+        "name": "体验版",
+        "price": "12元/月",
+        "traffic": "100GB/月",
+        "suitable": "低预算试错与轻度连线"
+      },
+      {
+        "name": "畅享版",
+        "price": "28元/月",
+        "traffic": "250GB/月",
+        "suitable": "老牌稳定线路、支持全端客户端"
+      },
+      {
+        "name": "年付版",
+        "price": "137元/年",
+        "traffic": "100GB/月",
+        "suitable": "长期稳定主用超值套餐"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "韩国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 5,
+    "isPrimary": false,
+    "name": "隐形人",
+    "slug": "invisible-cloud",
+    "inviteURL": "https://varnexa.invisibleaff.com/#/?code=FlyoraeM",
+    "ctaText": "查看当前套餐",
+    "coupon": "yinxing88",
+    "priceFrom": "18元/月",
+    "trafficFrom": "100GB/月",
+    "suitableFor": "高度隐私保护、匿名无日志连接、跨境商务沟通",
+    "summary": "隐形人专注于网络隐私与数据安全，节点采用高强度加密协议，提供防封锁动态IP分配。",
+    "packages": [
+      {
+        "name": "体验版",
+        "price": "18元/月",
+        "traffic": "100GB/月",
+        "suitable": "隐私防护与匿名连线"
+      },
+      {
+        "name": "进阶版",
+        "price": "36元/月",
+        "traffic": "260GB/月",
+        "suitable": "全节点IEPL中继与流媒体解锁"
+      },
+      {
+        "name": "年付旗舰",
+        "price": "188元/年",
+        "traffic": "150GB/月",
+        "suitable": "高性价比年付长约套餐"
+      }
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 6,
+    "isPrimary": false,
+    "name": "浪网 WaveNet",
+    "slug": "wavenet",
+    "inviteURL": "https://varnexa.wavenetaff.com/#/?code=a9HF4LBZ",
+    "ctaText": "查看当前套餐",
+    "coupon": "wave2026",
+    "priceFrom": "22元/月",
+    "trafficFrom": "200GB/月",
+    "suitableFor": "大流量多媒体传输、YouTube 4K硬解、高速下载",
+    "summary": "浪网 WaveNet 拥有高带宽出口，节点跑分速度快，极为适合喜欢看4K高清视频和有大量文件下载需求的用户。",
+    "packages": [
+      {
+        "name": "高能版",
+        "price": "22元/月",
+        "traffic": "200GB/月",
+        "suitable": "大流量影音下载与高清播发"
+      },
+      {
+        "name": "狂飙版",
+        "price": "45元/月",
+        "traffic": "500GB/月",
+        "suitable": "百兆带宽硬解与多端并发"
+      },
+      {
+        "name": "不限时包",
+        "price": "150元/一次性",
+        "traffic": "600GB不限时",
+        "suitable": "终身按量备用防断网"
+      }
+    ],
+    "protocols": [
+      "Hysteria2",
+      "Shadowsocks"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 7,
+    "isPrimary": false,
+    "name": "梯子云 LadderCloud",
+    "slug": "laddercloud",
+    "inviteURL": "https://varnexa.ladderaff.com/#/?code=bYVSMHMh",
+    "ctaText": "查看当前套餐",
+    "coupon": "ladder88",
+    "priceFrom": "15元/月",
+    "trafficFrom": "150GB/月",
+    "suitableFor": "小白保姆级教程配套、多设备一键连接",
+    "summary": "梯子云 LadderCloud 界面简洁明了，配套保姆级新手图文教程，小白即买即用。",
+    "packages": [
+      {
+        "name": "入门版",
+        "price": "15元/月",
+        "traffic": "150GB/月",
+        "suitable": "零基础小白上手体验"
+      },
+      {
+        "name": "进阶版",
+        "price": "32元/月",
+        "traffic": "350GB/月",
+        "suitable": "高速BGP中继与流畅4K"
+      },
+      {
+        "name": "年付省心包",
+        "price": "149元/年",
+        "traffic": "120GB/月",
+        "suitable": "省心年付超值方案"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 8,
+    "isPrimary": false,
+    "name": "飞V",
+    "slug": "flyv-cloud",
+    "inviteURL": "https://varnexa.flyvaff.com/#/?code=qaMgTyhY",
+    "ctaText": "查看当前套餐",
+    "coupon": "flyvvip",
+    "priceFrom": "25元/月",
+    "trafficFrom": "300GB/月",
+    "suitableFor": "多节点备用、海外电商后台管理、跨境运营",
+    "summary": "飞V拥有丰富的海外原生节点覆盖，节点连通率高，是跨境电商及多业务运营的稳定辅助方案。",
+    "packages": [
+      {
+        "name": "商务版",
+        "price": "25元/月",
+        "traffic": "300GB/月",
+        "suitable": "外贸商务与远程会议加速"
+      },
+      {
+        "name": "企业专线",
+        "price": "68元/月",
+        "traffic": "800GB/月",
+        "suitable": "独立原生IP与SLA稳定保障"
+      },
+      {
+        "name": "年付商务",
+        "price": "238元/年",
+        "traffic": "250GB/月",
+        "suitable": "企业团队长约优惠"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "美国",
+      "英国",
+      "德国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 9,
+    "isPrimary": false,
+    "name": "星岛梦",
+    "slug": "xingdaomeng",
+    "inviteURL": "https://kfccbb.xingdaomeng.com/#/?code=tLbhLnNf",
+    "ctaText": "查看当前套餐",
+    "coupon": "xdm88",
+    "priceFrom": "16元/月",
+    "trafficFrom": "120GB/月",
+    "suitableFor": "影音娱乐、轻度社交、网页浏览",
+    "summary": "星岛梦机场线路稳定，提供丰富的亚洲优质节点，解锁大部分主流流媒体服务。",
+    "packages": [
+      {
+        "name": "基础版",
+        "price": "16元/月",
+        "traffic": "120GB/月",
+        "suitable": "日常社交通讯与网页浏览"
+      },
+      {
+        "name": "高级版",
+        "price": "32元/月",
+        "traffic": "280GB/月",
+        "suitable": "4K流媒体与游戏加速"
+      },
+      {
+        "name": "年付特惠",
+        "price": "158元/年",
+        "traffic": "100GB/月",
+        "suitable": "学生党与平民年付首选"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 10,
+    "isPrimary": false,
+    "name": "光速云",
+    "slug": "guangsu-cloud",
+    "inviteURL": "https://mdlky.gsyaff.com/#/?code=5snwJVcD",
+    "ctaText": "查看当前套餐",
+    "coupon": "guangsu2026",
+    "priceFrom": "19元/月",
+    "trafficFrom": "180GB/月",
+    "suitableFor": "低延迟网页加速、游戏节点连线",
+    "summary": "光速云专注低延迟传输，采用精选BGP中继专线，访问海外网页与应用提速明显。",
+    "packages": [
+      {
+        "name": "标准版",
+        "price": "19元/月",
+        "traffic": "180GB/月",
+        "suitable": "光速专线连通与低延迟处理"
+      },
+      {
+        "name": "尊享版",
+        "price": "38元/月",
+        "traffic": "400GB/月",
+        "suitable": "AI代码补全与高清视频协同"
+      },
+      {
+        "name": "年付尊享",
+        "price": "189元/年",
+        "traffic": "180GB/月",
+        "suitable": "长约稳定冲浪方案"
+      }
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 11,
+    "isPrimary": false,
+    "name": "唯兔云 (V2云)",
+    "slug": "v2yun",
+    "inviteURL": "https://fast.v2yunvipaff.com/#/?code=xkiG3YWN",
+    "ctaText": "查看当前套餐",
+    "coupon": "v2yun88",
+    "priceFrom": "15元/月",
+    "trafficFrom": "100GB/月",
+    "suitableFor": "V2Ray与VMess/VLESS协议爱好者、多终端同步",
+    "summary": "唯兔云（V2云）深度适配V2Ray生态，节点覆盖广，订阅同步方便。",
+    "packages": [
+      {
+        "name": "普及版",
+        "price": "15元/月",
+        "traffic": "100GB/月",
+        "suitable": "V2ray协议轻度连线"
+      },
+      {
+        "name": "专业版",
+        "price": "30元/月",
+        "traffic": "250GB/月",
+        "suitable": "多协议智能分流与流媒体"
+      },
+      {
+        "name": "年付普及",
+        "price": "139元/年",
+        "traffic": "90GB/月",
+        "suitable": "高性价比年付套餐"
+      }
+    ],
+    "protocols": [
+      "V2Ray",
+      "VMess",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 12,
+    "isPrimary": false,
+    "name": "U1S1 (有一说一)",
+    "slug": "u1s1-cloud",
+    "inviteURL": "https://pkdj7.vipaff.cc/#/?code=nYbe5pKy",
+    "ctaText": "查看当前套餐",
+    "coupon": "u1s1vip",
+    "priceFrom": "14元/月",
+    "trafficFrom": "120GB/月",
+    "suitableFor": "实事求是性价比选择、日常上网与刷剧",
+    "summary": "U1S1机场口碑良好，节点真实不跑虚高倍率，价格公道，深受用户信任。",
+    "packages": [
+      {
+        "name": "实用版",
+        "price": "14元/月",
+        "traffic": "120GB/月",
+        "suitable": "有一说一高性价比随用随充"
+      },
+      {
+        "name": "发烧版",
+        "price": "28元/月",
+        "traffic": "300GB/月",
+        "suitable": "晚高峰硬核抗封锁打游戏"
+      },
+      {
+        "name": "不限时流量包",
+        "price": "99元/一次性",
+        "traffic": "300GB不限时",
+        "suitable": "轻度备用不过期"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 13,
+    "isPrimary": false,
+    "name": "极连云",
+    "slug": "jilian-cloud",
+    "inviteURL": "https://kdjhao.jlyvipaff.com/#/?code=rO50GIZj",
+    "ctaText": "查看当前套餐",
+    "coupon": "jilian88",
+    "priceFrom": "18元/月",
+    "trafficFrom": "150GB/月",
+    "suitableFor": "极速连线、秒开网页与社交软件",
+    "summary": "极连云拥有出色的智能路由节点分配，秒连秒开，节点在线率高。",
+    "packages": [
+      {
+        "name": "极速版",
+        "price": "18元/月",
+        "traffic": "150GB/月",
+        "suitable": "极速握手与长连接保持"
+      },
+      {
+        "name": "团队版",
+        "price": "42元/月",
+        "traffic": "450GB/月",
+        "suitable": "多设备并发与团队协同"
+      },
+      {
+        "name": "年付极速",
+        "price": "168元/年",
+        "traffic": "120GB/月",
+        "suitable": "长期稳定主用推荐"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "台湾",
+      "日本",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 14,
+    "isPrimary": false,
+    "name": "全球云",
+    "slug": "quanqiu-cloud",
+    "inviteURL": "https://sswdh.gcvipaff.com/#/?code=Ys0xKqnU",
+    "ctaText": "查看当前套餐",
+    "coupon": "qq88",
+    "priceFrom": "20元/月",
+    "trafficFrom": "120GB/月",
+    "suitableFor": "全球多地区出口IP、短视频运营、AI工具解锁",
+    "summary": "全球云提供涵盖多国原生节点的线路网络，支持智能分流与高并发连接。",
+    "packages": [
+      {
+        "name": "轻量版",
+        "price": "20元/月",
+        "traffic": "120GB/月",
+        "suitable": "全球节点智能选路与解锁"
+      },
+      {
+        "name": "全能版",
+        "price": "45元/月",
+        "traffic": "380GB/月",
+        "suitable": "原生IP解锁ChatGPT与流媒体"
+      },
+      {
+        "name": "年付全能",
+        "price": "199元/年",
+        "traffic": "150GB/月",
+        "suitable": "全球跨境出海首选"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "英国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 15,
+    "isPrimary": false,
+    "name": "光年梯",
+    "slug": "guangnian-ti",
+    "inviteURL": "https://ggmq.gntaff.com/#/?code=34i9Naos",
+    "ctaText": "查看当前套餐",
+    "coupon": "gnt2026",
+    "priceFrom": "16元/月",
+    "trafficFrom": "130GB/月",
+    "suitableFor": "长久稳定连线、稳定学术科研",
+    "summary": "光年梯服务稳定持久，节点倍率合理，非常适合需要长期连线的用户。",
+    "packages": [
+      {
+        "name": "稳定版",
+        "price": "16元/月",
+        "traffic": "130GB/月",
+        "suitable": "老牌抗封锁线路与稳定连线"
+      },
+      {
+        "name": "豪华版",
+        "price": "35元/月",
+        "traffic": "320GB/月",
+        "suitable": "4K无缓冲与高并发握手"
+      },
+      {
+        "name": "年付稳定",
+        "price": "159元/年",
+        "traffic": "110GB/月",
+        "suitable": "性价比长约套餐"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 16,
+    "isPrimary": false,
+    "name": "Sogo云",
+    "slug": "sogo-cloud",
+    "inviteURL": "https://wzjc.sogoyunaff.cc/#/?code=nWA62UuJ",
+    "ctaText": "查看当前套餐",
+    "coupon": "sogo88",
+    "priceFrom": "15元/月",
+    "trafficFrom": "100GB/月",
+    "suitableFor": "移动端小白、一键傻瓜化连接",
+    "summary": "Sogo云主打移动端流畅连线，完美兼容Clash Verge与Shadowrocket。",
+    "packages": [
+      {
+        "name": "便携版",
+        "price": "15元/月",
+        "traffic": "100GB/月",
+        "suitable": "移动端与平板便携连线"
+      },
+      {
+        "name": "全能版",
+        "price": "30元/月",
+        "traffic": "260GB/月",
+        "suitable": "全端订阅与多设备支持"
+      },
+      {
+        "name": "年付便携",
+        "price": "138元/年",
+        "traffic": "80GB/月",
+        "suitable": "学生党学术科研推荐"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 17,
+    "isPrimary": false,
+    "name": "宇宙云 YuZhou",
+    "slug": "yuzhou-cloud",
+    "inviteURL": "https://wzjc.yuzoucloud.cc/#/?code=hMqs74rd",
+    "ctaText": "查看当前套餐",
+    "coupon": "yuzhou88",
+    "priceFrom": "22元/月",
+    "trafficFrom": "200GB/月",
+    "suitableFor": "宇宙级超大带宽、全高清流媒体播放",
+    "summary": "宇宙云 YuZhou 带宽储备充裕，高能中继线路保障高峰期速度。",
+    "packages": [
+      {
+        "name": "旗舰版",
+        "price": "22元/月",
+        "traffic": "200GB/月",
+        "suitable": "大流量与百兆独享带宽"
+      },
+      {
+        "name": "星际版",
+        "price": "48元/月",
+        "traffic": "550GB/月",
+        "suitable": "海量4K/8K视频与大文件下载"
+      },
+      {
+        "name": "年付旗舰",
+        "price": "210元/年",
+        "traffic": "180GB/月",
+        "suitable": "长期大流量主用"
+      }
+    ],
+    "protocols": [
+      "Hysteria2",
+      "Shadowsocks"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 18,
+    "isPrimary": false,
+    "name": "二猫云 2mao",
+    "slug": "2mao-cloud",
+    "inviteURL": "https://waaa.2maoyunaff.cc/#/?code=tbIH9UGF",
+    "ctaText": "查看当前套餐",
+    "coupon": "2mao88",
+    "priceFrom": "12元/月",
+    "trafficFrom": "80GB/月",
+    "suitableFor": "便宜小流量备用、学生党上网",
+    "summary": "二猫云 2mao 价格超亲民，是预算有限用户的优质补充方案。",
+    "packages": [
+      {
+        "name": "学生版",
+        "price": "12元/月",
+        "traffic": "80GB/月",
+        "suitable": "平民低门槛学生党试错"
+      },
+      {
+        "name": "进阶版",
+        "price": "26元/月",
+        "traffic": "220GB/月",
+        "suitable": "日常科学上网与4K追剧"
+      },
+      {
+        "name": "年付超值",
+        "price": "118元/年",
+        "traffic": "80GB/月",
+        "suitable": "折合9元/月极低年付"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 19,
+    "isPrimary": false,
+    "name": "一翻云 1fly",
+    "slug": "1fly-cloud",
+    "inviteURL": "https://wzjc.1flyunaff.cc/#/?code=vq9IugSn",
+    "ctaText": "查看当前套餐",
+    "coupon": "1fly2026",
+    "priceFrom": "17元/月",
+    "trafficFrom": "140GB/月",
+    "suitableFor": "翻墙小白一键导入、流媒体解锁",
+    "summary": "一翻云 1fly 简单实用，节点覆盖亚洲热门地区，支持多种流媒体解锁。",
+    "packages": [
+      {
+        "name": "基础版",
+        "price": "17元/月",
+        "traffic": "140GB/月",
+        "suitable": "一键翻墙与基础网页连线"
+      },
+      {
+        "name": "飞跃版",
+        "price": "35元/月",
+        "traffic": "320GB/月",
+        "suitable": "原生IP解锁AI与4K播放"
+      },
+      {
+        "name": "年付飞跃",
+        "price": "169元/年",
+        "traffic": "120GB/月",
+        "suitable": "省心稳定主用"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 20,
+    "isPrimary": false,
+    "name": "边缘节点 EdgeNova",
+    "slug": "edgenova",
+    "inviteURL": "https://work.edgenovaaff.cc/#/?code=6Mi7km72",
+    "ctaText": "查看当前套餐",
+    "coupon": "edge88",
+    "priceFrom": "25元/月",
+    "trafficFrom": "250GB/月",
+    "suitableFor": "边缘中继加速、高并发网络连接",
+    "summary": "边缘节点 EdgeNova 采用先进边缘中继架构，显著降低网络抖动。",
+    "packages": [
+      {
+        "name": "专业版",
+        "price": "25元/月",
+        "traffic": "250GB/月",
+        "suitable": "IEPL专线与游戏低延迟加速"
+      },
+      {
+        "name": "极客版",
+        "price": "55元/月",
+        "traffic": "600GB/月",
+        "suitable": "软路由分流与全节点解锁"
+      },
+      {
+        "name": "年付专业",
+        "price": "249元/年",
+        "traffic": "200GB/月",
+        "suitable": "极客发烧友长约推荐"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Hysteria2"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "德国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 21,
+    "isPrimary": false,
+    "name": "可信云",
+    "slug": "kosing-cloud",
+    "inviteURL": "https://work.kosingaff.com/#/?code=BmIpbeEn",
+    "ctaText": "查看当前套餐",
+    "coupon": "kosing88",
+    "priceFrom": "16元/月",
+    "trafficFrom": "130GB/月",
+    "suitableFor": "高可信度连线、安全数据加密",
+    "summary": "可信云运营稳定可靠，注重用户数据隐私防护，适合安全办公。",
+    "packages": [
+      {
+        "name": "可信版",
+        "price": "16元/月",
+        "traffic": "130GB/月",
+        "suitable": "可信高SLA在线率保障"
+      },
+      {
+        "name": "卓越版",
+        "price": "33元/月",
+        "traffic": "300GB/月",
+        "suitable": "外贸沟通与办公长连接"
+      },
+      {
+        "name": "年付可信",
+        "price": "158元/年",
+        "traffic": "100GB/月",
+        "suitable": "稳定连线首选"
+      }
+    ],
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 22,
+    "isPrimary": false,
+    "name": "速界 SuJie",
+    "slug": "sujie-cloud",
+    "inviteURL": "https://work.speedworldaff.cc/#/?code=YhcpJLbr",
+    "ctaText": "查看当前套餐",
+    "coupon": "sujie2026",
+    "priceFrom": "19元/月",
+    "trafficFrom": "160GB/月",
+    "suitableFor": "快速跨境浏览、游戏加速",
+    "summary": "速界 SuJie 在线路响应与延时优化上表现优异，连通速度极快。",
+    "packages": [
+      {
+        "name": "速享版",
+        "price": "19元/月",
+        "traffic": "160GB/月",
+        "suitable": "速界BGP中继与快速握手"
+      },
+      {
+        "name": "尊速版",
+        "price": "39元/月",
+        "traffic": "380GB/月",
+        "suitable": "4K流媒体与多端并发"
+      },
+      {
+        "name": "年付速享",
+        "price": "188元/年",
+        "traffic": "150GB/月",
+        "suitable": "高性价比年付"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 23,
+    "isPrimary": false,
+    "name": "快狸 KuaiLi",
+    "slug": "kuaili-cloud",
+    "inviteURL": "https://work.kuailicloud.cc/#/?code=7BsufMC0",
+    "ctaText": "查看当前套餐",
+    "coupon": "kuaili88",
+    "priceFrom": "13元/月",
+    "trafficFrom": "90GB/月",
+    "suitableFor": "灵动轻便、短视频与网页提速",
+    "summary": "快狸 KuaiLi 界面清新，套餐价格亲民，适合日常移动设备连线。",
+    "packages": [
+      {
+        "name": "轻盈版",
+        "price": "13元/月",
+        "traffic": "90GB/月",
+        "suitable": "低单价轻量查资料"
+      },
+      {
+        "name": "敏捷版",
+        "price": "26元/月",
+        "traffic": "230GB/月",
+        "suitable": "敏捷响应与流媒体解锁"
+      },
+      {
+        "name": "年付轻盈",
+        "price": "129元/年",
+        "traffic": "80GB/月",
+        "suitable": "平民月付/年付双选"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 24,
+    "isPrimary": false,
+    "name": "无忧",
+    "slug": "worryfree-cloud",
+    "inviteURL": "https://wep01.worryfreeaff.com/#/?code=vak0gPse",
+    "ctaText": "查看当前套餐",
+    "coupon": "worryfree88",
+    "priceFrom": "15元/月",
+    "trafficFrom": "100GB/月",
+    "suitableFor": "省心无忧连线、高自动恢复率",
+    "summary": "无忧机场拥有多重备用通道，故障自动切换，真正做到无忧上网。",
+    "packages": [
+      {
+        "name": "无忧版",
+        "price": "15元/月",
+        "traffic": "100GB/月",
+        "suitable": "无忧稳定连接与备用防护"
+      },
+      {
+        "name": "畅游版",
+        "price": "32元/月",
+        "traffic": "280GB/月",
+        "suitable": "晚高峰0丢包与视频播发"
+      },
+      {
+        "name": "年付无忧",
+        "price": "148元/年",
+        "traffic": "90GB/月",
+        "suitable": "无忧防失联备用"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 25,
+    "isPrimary": false,
+    "name": "灵猫",
+    "slug": "civet-cloud",
+    "inviteURL": "https://vip02.civetaff.com/#/?code=Z4KLo3Wz",
+    "ctaText": "查看当前套餐",
+    "coupon": "civet88",
+    "priceFrom": "17元/月",
+    "trafficFrom": "130GB/月",
+    "suitableFor": "灵动敏捷连接、小巧稳定",
+    "summary": "灵猫机场响应速度快，节点连通稳定，支持主流Clash与Sing-box客户端。",
+    "packages": [
+      {
+        "name": "灵动版",
+        "price": "17元/月",
+        "traffic": "130GB/月",
+        "suitable": "灵动敏捷连接与小巧稳定"
+      },
+      {
+        "name": "猫享版",
+        "price": "34元/月",
+        "traffic": "300GB/月",
+        "suitable": "4K全节点解锁与高带宽"
+      },
+      {
+        "name": "年付灵动",
+        "price": "168元/年",
+        "traffic": "110GB/月",
+        "suitable": "稳定主用长约推荐"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 26,
+    "isPrimary": false,
+    "name": "闪跃 FlashLeap",
+    "slug": "flashleap",
+    "inviteURL": "https://vip02.flashleapaff.com/#/?code=wnLaKVaU",
+    "ctaText": "查看当前套餐",
+    "coupon": "flash2026",
+    "priceFrom": "21元/月",
+    "trafficFrom": "180GB/月",
+    "suitableFor": "闪电高跃连接、4K超高清播放",
+    "summary": "闪跃 FlashLeap 节点带宽充足，支持高峰期4K高清不卡顿播放。",
+    "packages": [
+      {
+        "name": "高跃版",
+        "price": "21元/月",
+        "traffic": "180GB/月",
+        "suitable": "闪跃高速物理专线"
+      },
+      {
+        "name": "飞腾版",
+        "price": "46元/月",
+        "traffic": "450GB/月",
+        "suitable": "大流量海量下载与极速体验"
+      },
+      {
+        "name": "年付高跃",
+        "price": "208元/年",
+        "traffic": "150GB/月",
+        "suitable": "高速专线年付包"
+      }
+    ],
+    "protocols": [
+      "Hysteria2",
+      "Shadowsocks"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 27,
+    "isPrimary": false,
+    "name": "飞为 (Firefly)",
+    "slug": "firefly-cloud",
+    "inviteURL": "https://vip02.fireflyaff.com/#/?code=1n1ZIJab",
+    "ctaText": "查看当前套餐",
+    "coupon": "firefly88",
+    "priceFrom": "18元/月",
+    "trafficFrom": "140GB/月",
+    "suitableFor": "光明稳定连线、多节点负载均衡",
+    "summary": "飞为（Firefly）节点抗封锁性能优异，多节点自动负载均衡。",
+    "packages": [
+      {
+        "name": "飞跃版",
+        "price": "18元/月",
+        "traffic": "140GB/月",
+        "suitable": "飞为稳定节点与流媒体"
+      },
+      {
+        "name": "星光版",
+        "price": "36元/月",
+        "traffic": "320GB/月",
+        "suitable": "全端订阅与低延迟握手"
+      },
+      {
+        "name": "年付飞跃",
+        "price": "178元/年",
+        "traffic": "120GB/月",
+        "suitable": "高性价比年付"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国"
+    ],
+    "lastChecked": "2026-09-29"
+  },
+  {
+    "rank": 28,
+    "isPrimary": false,
+    "name": "跨界",
+    "slug": "kuajie-cloud",
+    "inviteURL": "https://vip02.kuajieaff.com/#/?code=RQ4b2tfV",
+    "ctaText": "查看当前套餐",
+    "coupon": "kuajie88",
+    "priceFrom": "20元/月",
+    "trafficFrom": "150GB/月",
+    "suitableFor": "跨境业务传输、全球多节点调度",
+    "summary": "跨界机场专为跨境需求打造，线路覆盖广，连通性强。",
+    "packages": [
+      {
+        "name": "跨境版",
+        "price": "20元/月",
+        "traffic": "150GB/月",
+        "suitable": "跨境出海与外贸业务专线"
+      },
+      {
+        "name": "商务尊享",
+        "price": "48元/月",
+        "traffic": "450GB/月",
+        "suitable": "原生住宅IP与防封号风控"
+      },
+      {
+        "name": "年付跨境",
+        "price": "218元/年",
+        "traffic": "180GB/月",
+        "suitable": "跨境电商长约首选"
+      }
+    ],
+    "protocols": [
+      "Shadowsocks",
+      "V2Ray",
+      "Trojan"
+    ],
+    "nodeLocations": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "英国"
+    ],
+    "lastChecked": "2026-09-29"
+  }
+]

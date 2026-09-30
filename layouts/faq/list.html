@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="container">
+  <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius); padding: 32px; margin-bottom: 32px; box-shadow: var(--shadow);">
+    <h1 style="font-size: 2.2rem; font-weight: 800; color: var(--text-main); margin-bottom: 12px;">科学上网与机场选择常见问题解答大全 (FAQ 100问)</h1>
+    <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.7;">
+      欢迎来到 机场导航网 常见问题解答中心。本专区汇总了100个涵盖机场推荐选择、Clash/Shadowrocket客户端配置报错、IEPL专线与公网直连区别、节点超时排查、Netflix/ChatGPT解锁故障等新手最关心的核心疑难。所有问题均已全量展开，便于速查与学习。
+    </p>
+  </div>
+
+  <div class="faq-section">
+    {{ range .Pages }}
+    <div class="faq-item" id="{{ .File.TranslationBaseName }}">
+      <h2 class="faq-question" style="font-size: 1.25rem; color: #1d4ed8; margin-bottom: 12px;">Q: {{ .Title }}</h2>
+      <div class="faq-answer" style="line-height: 1.8; color: #1e293b;">
+        {{ .Content }}
+      </div>
+      <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e2e8f0; font-size: 0.82rem; color: #64748b;">
+        <span>🏷️ 关键词：{{ range .Params.keywords }}{{ . }} {{ end }}</span> | 
+        <span>📅 更新时间：{{ .Date.Format "2006-01-02" }}</span> | 
+        <a href="#{{ .File.TranslationBaseName }}" style="color:#1d4ed8;">锚点链接</a>
+      </div>
+    </div>
+    {{ else }}
+    <p>正在载入FAQ列表...</p>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}
